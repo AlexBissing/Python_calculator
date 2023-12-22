@@ -1,7 +1,7 @@
 def main():
     try:
         while(True):
-            put = input("Введите выражение: ")
+            put = input("input: ")
             sl = put.split()
             a, op, b = int(sl[0]), sl[1], int(sl[2])
 
